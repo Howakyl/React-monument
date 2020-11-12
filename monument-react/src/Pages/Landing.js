@@ -4,6 +4,7 @@ import Archive from '../components/Archive';
 import About from '../components/About';
 import Gallery from '../components/Gallery';
 import './Landing.css';
+import Contact from '../components/Contact';
 // import articleImageOne from '../images/article_1.jpg';
 
 const Landing  = (props) => {
@@ -14,6 +15,7 @@ const Landing  = (props) => {
             <Archive />
             <About />
             <Gallery />
+            <Contact />
         </div>
     )
 };
