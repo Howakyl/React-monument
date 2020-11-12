@@ -1,9 +1,11 @@
 import React from 'react';
+import BlogHeader from '../components/BlogHeader';
+import './Blog.css';
 
 const Blog = (props) => {
     return (
         <div>
-            <h1>Woo!</h1>
+            <BlogHeader />
         </div>
     )
 };

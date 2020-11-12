@@ -6,7 +6,7 @@ import gallery4 from '../images/gallery_4.jpg';
 import gallery5 from '../images/gallery_5.jpg';
 import gallery6 from '../images/gallery_6.jpg';
 
-const Gallery = () => {
+const Gallery = (props) => {
     return (
         <section id="gallery">
             <div className="wrap">
